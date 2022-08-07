@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* transition: 5s; */
+}
+
+.btn {
+  font-size: 60px;
+  cursor: pointer;
+  background-color: brown;
+  border-radius: 40px;
+}
+
+.btn:hover {
+  background-color: cornflowerblue;
+}
+.bg-dark {
+  background-color: black;
+  color: white;
+}

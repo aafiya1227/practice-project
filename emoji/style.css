@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: rgb(124, 67, 67);
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji {
+  font-size: 200px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.open {
+  display: none;
+  background-color: black;
+}
+
+.close {
+  display: none;
+  background-color: white;
+}
+
+.active {
+  display: flex;
+}
