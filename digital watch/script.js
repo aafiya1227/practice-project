@@ -10,6 +10,10 @@ setInterval(() => {
     dayNight = "PM";
     hours = hours - 12;
   }
+
+  if ((hours = 12)) {
+    hours = hours;
+  }
   if (hours < 10) {
     hours = "0" + hours;
   }

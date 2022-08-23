@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: rgb(24, 126, 130);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 360px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px 30px;
+}
+
+.container header {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container form {
+  margin: 35px 0 20px;
+}
+
+form .row {
+  display: flex;
+  flex-direction: column;
+}
+
+form .row label {
+  font-size: 22px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+form :where(textarea, select, button) {
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 5px;
+}
+form textarea {
+  height: 150px;
+  resize: none;
+  border: 1px solid grey;
+  padding: 8px 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+form select {
+  height: 35px;
+  border: 1px solid grey;
+}
+
+form button {
+  background-color: rgb(24, 126, 130);
+  margin-top: 30px;
+  height: 52px;
+  font-size: 20px;
+  cursor: pointer;
+}

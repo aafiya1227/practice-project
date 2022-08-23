@@ -1,0 +1,66 @@
+/* body {
+  background-image: url(/music/content/c-d-x-PDX_a_82obo-unsplash.jpg);
+  height: 100px;
+  width: 100%;
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/music/content/c-d-x-PDX_a_82obo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+h1 {
+  font-size: 170px;
+  text-shadow: 10px 10px 10px black;
+}
+
+.content {
+  height: 30vh;
+  width: 70%;
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 410px;
+  margin-top: 50px;
+}
+img {
+  height: 70px;
+}
+
+.gif {
+  height: 200px;
+  opacity: 0;
+  transform: translate(1s, ease);
+  margin-right: 1200px;
+  color: yellow;
+}
+
+i {
+  cursor: pointer;
+}
+.content .play {
+  display: none;
+  font-size: 100px;
+  margin-bottom: 5px;
+}
+
+.content .pause {
+  display: none;
+  margin-bottom: 5px;
+  font-size: 100px;
+}
+
+.content .active {
+  display: flex;
+}
